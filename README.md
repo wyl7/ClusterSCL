@@ -36,8 +36,6 @@ Specifically, the repository is organized as follows:
 * `data/` contains the data files from https://github.com/tkipf/gcn.
 
 * `networks/` contains the implementation of a GAT backbone.
- 
-* `save/` is used to save the experimental results.
 
 * `requirements.txt` is used to install the required tools.
  
