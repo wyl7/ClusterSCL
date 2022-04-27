@@ -61,7 +61,7 @@ $ mkdir save
 $ sh run_pubmed.sh
 ```
 
-Notes: the optimal hyper-parameters could be somewhat different under different environments (e.g., different devices and different versions of PyTorch), you can use the suggested method introduced in our paper to choose the combination of hyper-parameters.
+Notes: the experimental results and optimal hyper-parameters could be somewhat different under different environments (e.g., different devices and different versions of PyTorch), you can use the suggested method introduced in our paper to choose the combination of hyper-parameters.
 
 Reference
 ====
