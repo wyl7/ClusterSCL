@@ -51,7 +51,10 @@ The loss function ClusterSCL in elboCL.py takes a batch of node embeddings (L2 n
 
 Running the code
 ====
-(1) Create a folder `save/` to store results.
+(1) Create a folder to store results.
+```
+$ mkdir save
+```
 
 (2) To run the example, execute:
 ```
