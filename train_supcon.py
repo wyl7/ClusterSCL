@@ -169,7 +169,6 @@ def main():
 
 def train(feats, adj, node_id, node_id2, labels, nodes_per_cls, model, criterion, opt, device):
     """compute SupCon loss"""
-    # contrust the positive node pairs
     model.train()
     criterion.train()
     output = model(feats, adj)
@@ -178,7 +177,6 @@ def train(feats, adj, node_id, node_id2, labels, nodes_per_cls, model, criterion
     tmp_feature = torch.reshape(torch.unsqueeze(tmp_output, 1), (-1, 2, opt.hidden_dim))
     tmp_label = torch.reshape(torch.FloatTensor(labels[node_id, 1]).to(device), (-1, 1))
 
-    # supcon learning
     loss = criterion(tmp_feature, tmp_label)
 
     return loss
