@@ -184,7 +184,6 @@ def main():
 
 def train(feats, adj, node_id, node_id2, labels, nodes_per_cls, model, criterion, opt, device):
     """compute ClusterSCL Loss"""
-    # contrust the positive node pairs
     model.train()
     criterion.train()
     output = model(feats, adj)
