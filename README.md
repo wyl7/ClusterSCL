@@ -1,7 +1,7 @@
 # ClusterSCL
 The pytorch implementation of ClusterSCL.
 
-ClusterSCL is supervised contrastive learning scheme for supervised learning of node classification models on the datasets with large intra-class variances and high inter-class similarities. The main though is not restricted to the node classification task.
+ClusterSCL is a contrastive learning scheme for supervised learning of node classification models on the datasets with large intra-class variances and high inter-class similarities. The main though is not restricted to the node classification task.
 
 Requirements
 ====
