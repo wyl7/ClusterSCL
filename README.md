@@ -1,7 +1,9 @@
 # ClusterSCL
-The pytorch implementation of ClusterSCL.
+The pytorch implementation of ClusterSCL: Cluster-Aware Supervised Contrastive Learning on Graphs ([WWW 2022](https://www2022.thewebconf.org/)).
 
 ClusterSCL is a contrastive learning scheme for supervised learning of node classification models on the datasets with large intra-class variances and high inter-class similarities. The main though is not restricted to the node classification task.
+
+You can read our [paper](https://xiaojingzi.github.io/publications/WWW22-Wang-et-al-ClusterSCL.pdf) for details on this algorithm.
 
 Requirements
 ====
@@ -60,3 +62,15 @@ $ sh run_pubmed.sh
 ```
 
 Notes: the optimal hyper-parameters could be somewhat different under different environments (e.g., different devices and different versions of PyTorch), but the experimental conclusion will not be affected. You can use the suggested method introduced in our paper to choose the combination of hyper-parameters.
+
+Reference
+====
+If you make use of our idea in your work, please cite the following paper:
+```
+ @inproceedings{Wang2021decoupling,
+     author = {Yanling Wang and Jing Zhang and Haoyang Li and Yuxiao Dong and Hongzhi Yin and Cuiping Li and Hong Chen},
+     title = {Cluster-Aware Supervised Contrastive Learning on Graphs},
+     booktitle = {WWW},
+     year = {2022}
+   }
+```
